@@ -1,5 +1,23 @@
-.nieto{
-    width: "150px";
-    color: "white";
+.body{
+    width: 300px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 20px;
     border-radius: 20px;
+    background-color: rgb(125, 141, 136);
+    /* backgroundImage: `url(${colorPicket(type)})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover" */
+}
+
+.img{
+    width: 100%;
+}
+
+.pl{
+    background: #b083cd;
+    padding: 2px;
+    margin: 5px;
+    color: black;
+    border-radius: 20px; 
 }
