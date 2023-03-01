@@ -1,0 +1,12 @@
+{
+    "registrarse": [
+        "Name",
+        "Email",
+        "Password",
+        "Repeat Password"
+    ],
+    "login": [
+        "Email",
+        "Password"
+    ]
+}
