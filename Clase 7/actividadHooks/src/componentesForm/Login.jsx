@@ -47,7 +47,7 @@ export const Login = () => {
             </form>
             <Container content="row">
                 <Button btn="cancel">Cancel</Button>
-                <Button form="register-form" btn="submit">Submit</Button>
+                <Button form="login-form" btn="submit">Submit</Button>
             </Container>
         </FormContainer>
     )
