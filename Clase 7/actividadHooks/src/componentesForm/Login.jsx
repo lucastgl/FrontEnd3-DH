@@ -7,7 +7,7 @@ const inputs = [
     {id: 2, label: "password", placeholder: "Escribe tu contraseña", name: "password", type: "password"}
 ]
 
-export const Login = () => {
+export const Login = ({handleCompare}) => {
     const [values, setValues] = useState({
         email: "",
         password: ""
@@ -15,7 +15,7 @@ export const Login = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(values);
+        handleCompare(values)
         setValues({
             email: "",
             password: ""

@@ -1,5 +1,13 @@
 import styled, { css } from "styled-components";
 
+
+export const MasterContainer = styled.div`
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+`;
+
+
 export const FormContainer = styled.div`
   padding: 30px 10px;
   display: flex;
